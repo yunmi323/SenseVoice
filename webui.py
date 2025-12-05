@@ -218,7 +218,7 @@ html_content = """
 
 
 def launch():
-	with gr.Blocks(theme=gr.themes.Soft()) as demo:
+	with gr.Blocks() as demo:
 		# gr.Markdown(description)
 		gr.HTML(html_content)
 		with gr.Row():
